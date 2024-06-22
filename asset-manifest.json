@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FireFly-minimalist-assignmnent/static/css/main.52ffbef9.css",
+    "main.js": "/FireFly-minimalist-assignmnent/static/js/main.0f116aca.js",
+    "static/js/453.722a5678.chunk.js": "/FireFly-minimalist-assignmnent/static/js/453.722a5678.chunk.js",
+    "index.html": "/FireFly-minimalist-assignmnent/index.html",
+    "main.52ffbef9.css.map": "/FireFly-minimalist-assignmnent/static/css/main.52ffbef9.css.map",
+    "main.0f116aca.js.map": "/FireFly-minimalist-assignmnent/static/js/main.0f116aca.js.map",
+    "453.722a5678.chunk.js.map": "/FireFly-minimalist-assignmnent/static/js/453.722a5678.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52ffbef9.css",
+    "static/js/main.0f116aca.js"
+  ]
+}
