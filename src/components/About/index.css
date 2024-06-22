@@ -1,0 +1,80 @@
+.about-container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 768px){
+    .about-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.aboutHeadingContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: #F27121;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width: 768px){
+    .text{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .smStyleLine{
+        width: 35%;
+    }
+}
+
+.aboutDetails-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .aboutDetails-container{
+        display: none;
+    }
+}
+
+.description{
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    line-height: 2;
+    font-family: "Roboto";
+}
+
+.boldText{
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width: 768px){
+    .smAboutDetails-container{
+        background-image: url('https://res.cloudinary.com/dq1ktqbtb/image/upload/v1719042126/Frame_2_c9oldl.png');
+        background-size: cover;
+        padding: 18px;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .smAboutDetails-container{
+        display: none;
+    }
+}

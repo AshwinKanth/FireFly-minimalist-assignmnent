@@ -1,0 +1,74 @@
+.homePage-container{
+    background-image: url("https://res.cloudinary.com/dq1ktqbtb/image/upload/v1719039696/Frame_6_s9rdum.png");
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+}
+
+.homeText-container{
+    padding: 100px;
+}
+
+@media screen and (max-width: 768px){
+    .homeText-container{
+        padding: 30px;
+        padding-top: 60px;
+    }
+}
+
+.homeText{
+    color: #fff;
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px){
+    .homeText{
+        font-size: 25px;
+    }
+}
+
+.button{
+    color: #FE0000;
+    background-color: #fff;
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 768px){
+    .button{
+        width: 100px;
+        height: 40px;
+    }
+}
+
+
+.popup-container{
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.popupImage{
+    width: 50%;
+}
+
+@media screen and (max-width: 768px){
+    .popupImage{
+        width: 90%;
+    }
+}
+
+.trigger-button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+}
